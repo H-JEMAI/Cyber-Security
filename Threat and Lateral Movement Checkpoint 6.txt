@@ -186,57 +186,7 @@ Security team can offense this with improved strategic tactical and operational 
 
 
 
-this take me a long time  and it is not a literally copy paste  a reformulation of my wenglish words from multi mixed 
 
+
+this take me a long time  and it is not a literally copy paste  a reformulation of my english words from multi mixed 
 sources  (only the use of successive words for APT)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Data Encryption (Practice pa...
-Data Encryption (Theoretical...
-Network Security Checkpoint
-Active Defense Checkpoint
-Defense-in-depth Checkpoint
-Information Security Govern...
-Threat and Lateral Movement ...
-Hacker Methodology and Adver...
-Data Encryption Checkpoint
-Zed Attack Proxy (ZAP) Chec...
-Audit report/vulnerability a...
-KALI Linux Checkpoint
