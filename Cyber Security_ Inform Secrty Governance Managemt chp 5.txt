@@ -296,10 +296,8 @@ scans
      Every incident should finish with a compiled written report
      Established organizational “memory”
      Can serve as documentation in case further legal action occurs in the future
-     Can identify other deficiencies in the incident response that need to be dressed by 
-
-management
-     
+     Can identify other deficiencies in the incident response that need to be dressed by admins
+   
   Final report includes 
 	Timeline of incident and response events
 	Root cause of incident
