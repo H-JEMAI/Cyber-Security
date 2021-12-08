@@ -3,3 +3,303 @@
 Information Security Governance / Management  Checkpoint 5
 
 -----------------------------------------------------------------------------
+
+//Cyber Incident Response 
+
+it's a high-level organized actions to be taken in response to a security incident or event
+
+
+//Security Incidents
+  if an incident matters 
+    How we respond?
+    How we react?
+    How we recover?
+  early planning  minimizes risk and decreases response time
+ Security Events and Incidents
+   -Event : Any observable occurrence in a system or network
+   -Adverse Event :Any event that has negative consequences
+   -Incidents:An imminent threat of violation, or a violation itself, of a security policy, or 
+
+standard security practice
+
+    Not every event is an incident, but every incident contains at least one event
+    Security Team (CSIRT)
+
+//Incident Response Teams
+   members can be  permanent or temporary and  are cyber security professionals
+   Leader is a skilled Incident Responder
+   Subject matter experts
+   IT support staff
+   Legal counsel
+   Human resource staff
+   Public relations and marketing staff
+  
+ testing the Team
+  Plans without testing are ineffective
+     teams must be trained  and ready for an incident response
+     testing provide amelioration the policy and procedures and playbooks
+     testing can include pentesting to simulate a real attack
+
+
+
+//Incident Response Phases
+
+*Preparation
+•Takes preparation to build a well-prepared CSIRT (Computer Security Incident Response 
+
+Team)
+•Requires proper policy foundation within the organization
+•Preparation includes building proper cyber defenses in the organization  
+•Digital forensic devices
+•Forensic software
+•Packet capture devices
+•Spare servers ,network gear
+•Backup devices
+•Blank removable media
+•Collection, analysis, and reporting devices
+•Office supplies
+•devices for collection detection and analysis
+•Hardest to standardize
+•Tool s help in detection, but it takes a trained analyst to understand all the details during 
+
+analysis
+•When detection occurs, analysts shift to validation mode, then into analysis
+•Primarily passive activities designed to uncover and analyze incident 
+*Detection and Analysis:
+   Event Indicators
+     • Alerts
+     • IDS/IPS, SIEM, Anti-virus, or other applications alerts
+     • Logs from any device or network flow
+     • public information 
+     • people suspicious activity report  
+
+
+   Best Practices for Analysis
+  •Profile networks and systems
+  •Understand the baseline
+  •Create good logging policies
+  •Conduct event correlation
+  •Synchronize network and system clocks
+  •Maintain organization knowledge base
+  •Capture network traffic ASAP in incident
+  •Filter information to reduce confusion
+  •Know when to bring in outside help
+
+* Containment, Eradication,  and Recovery
+  •stop the spread of the incident,remove it  and recover from it
+  •Phase focuses on active detection and removal of the incident
+
+  (5 Steps)
+    1.Pick containment strategy
+    2.Use strategy to limit the damage caused by the incident
+    3.Gather evidence needed for potential future legal actions
+    4.Identify attacking system or attacker
+    5.Remove effects of incident and recover business 
+
+*Post-Incident Activity
+        •CSIRT isn’t done once the incident is contained and eradicated,
+    they still needto conduct:
+        •Event reconstruction  : 
+              Recreate a timeline of the incident ,Conduct consultations with  administrators 
+
+and managers
+        •Lessons learned : 
+              What happened and when?
+              How did staff perform?
+	Were procedures followed?
+	Were procedures adequate?
+	What should have been done differently?
+	Was information shared effectively?
+	How could we detect incident sooner?
+	What new tools or resources does the organization need?
+	Evidence retention
+          •Evidence Retention    
+               What do we do with it large quantities of evidencecollected 
+                Most organizations maintain records for 2 to 3 years if there is not a law case.
+
+//Incident Response Policy and Procedures
+   *follow the program or plan approved by the compagny
+   * should be timeless
+Contents of the Policy
+•Statement of management commitment
+•Purpose
+•Objectives
+•Scope of policy
+•Definitional terms
+•Roles, responsibilities, and authority
+•Incident prioritization scheme
+•Measures of performance for CSIRT
+•Reporting requirements
+•Contact information
+
+incident Response Procedures
+•Detailed information
+•Step-by-step guidelines
+•Not a replacement for CSIRT’s (Computer Security Incident Response Team)professional 
+
+judgement and expertise
+•Often developed as a specific playbook
+
+Playbook?
+•Describes a response to a high severity type of incident, such as:
+   • Data breach of financial information
+   • Data breach of personally identifiable information
+   • Phishing attack against customers
+   • Web server defacements
+   • Loss of corporate laptop
+   • Intrusion into the corporate network
+   • Windows Golden Ticket reset
+   • incident Response Checklist  NIST SP 800-61
+       http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+
+//Communication and Information Sharing
+
+//Incident Classification
+  incidents should be classified by their threat and severity 
+     threat  : umproper usage/lost or theft eaquipement/APT/other 
+     severity:  NIST 800-61
+  Allows comparison of current incident with past and future ones
+  Aids in personnel’s understanding of the incident being worked on
+ 
+
+//Network Event Monitoring
+   Network event analysis  common task to detect or prevent incidents
+   Network flows  data flow and devices status
+   use of Network flows standards
+    active and passive monitoring
+
+//Network Monitoring Tools
+   wireshark/solarwinds/catci/prtg/nagios
+
+//Detecting Network Events
+      determine an incident based on events
+      using log analysis determine if an event will become an incident
+
+       Types of Network Events:
+ 	Beaconing 
+	Unusual bandwidth consumption
+	Link and connection failures
+	Unexpected traffic
+
+
+//Network Probes and Attacks
+        ports scan/DoS/DDoS/
+        rogue devices: a hard added to the network 
+        solution: MAC adress validation/network access control and port security 
+
+// Server and Host Events
+ * monitoring 
+ * central management like SIEM for analysis 
+ * blacklist software/files/ also certain tools used by hacker and useful too by IT admins
+ * whitelist app
+ * ACL
+ * rights and permissions
+
+//Service and Application Events
+      Services and Applications should be monitored following  ITSM processes
+	Are they up/down?
+	Are they responding properly?
+	Are they functioning properly?
+	Are they conducting transactions properly?
+	Are they logging properly?
+     Service Anomalies
+	Non-security issues:
+	Authentication errors
+	Permission issues
+	Services don’t start on boot up
+	Service failures
+	Investigate the issue to ensure it is not security related
+	Use antivirus, antimalware  file integrity check, and whitelisting verification
+
+       Check service Status
+       Check service Interruption
+       Check memory Overflows
+
+//Digital Forensics
+
+-Forensics are used to determine any changes, activities, or actions that have occurred on 
+
+a host or server
+-Allows incident responders to determine what occurred by putting together various 
+
+pieces of information
+-Similar techniques are used by incident response teams and law enforcement
+
+//Forensic Toolkit Components
+   use clean hard drives and well prepared before use 
+   document and label network devices and their drivers and make a check list
+
+//Mobile Forensic Toolkits
+   Specialized software for accessing mobile devices
+
+//Forensic Software
+  * data collection and analysis using forensic tools
+
+
+//Training and Certification
+   full time forensic admins should be trained and certified
+
+//Forensic Investigation Process
+   Determine what you want to find out
+   Determine location to find that info
+   Document your plan
+   Acquire/preserve the evidence needed
+   Perform initial analysis (log actions)
+   Conduct deeper analysis (log actions)
+   Report on your findings
+
+// Disk Imaging
+    * create drives image ,hashes, saving data integrity 
+    * cloning disks with bit-by-bit copy
+        linux command    # ddbs-64k if=/dev/disk1/sda1 of=/mnt/usb1/sda1.img
+     *encrypt drives
+
+//Incident Containment
+   Perform this as quickly as possible
+   Isolate the issue
+   Stop the spread of the incident
+   Coordinate with stakeholders taking actions
+   Segmentation of the network to to prevent spread from one part of network to another
+
+   Containment objective : limit damage,provide repair issue ,maintain normal business
+   identify the hackers is another issue and take time if business is ok  mauy be its no    
+
+need
+
+//Eradication and Recovery
+   Remove any artifacts of the incident
+   Restore the network to full function
+   Correct any security deficiencies
+   Remove malicious code, clean compromised devices and fix affected  accounts
+   reconstruct the system from storage backup
+   rescan and patch any hard /soft  may be weak for the same attack vector
+   sanitization and disposal >   https://cyber.gc.ca/sites/default/files/itsp-40-0062v2-fig1
+
+-eng.jpg
+    validation effort : check user accounts /permissions/systems logging/vulnerability 
+
+scans 
+
+
+//Finishing the Response
+
+   management Process:
+      make changes  to management Process 
+      make changes  to management emergency board
+      ensure all changes have been documented properly
+      ensure that network diagrams and vulnerability scan profiles updated
+   Lessons-Learned :
+     make the incident details documented the cause and the security solution
+     make discussion and changes needed
+
+//   Final Report
+     Every incident should finish with a compiled written report
+     Established organizational “memory”
+     Can serve as documentation in case further legal action occurs in the future
+     Can identify other deficiencies in the incident response that need to be dressed by 
+
+management
+     
+  Final report includes 
+	Timeline of incident and response events
+	Root cause of incident
