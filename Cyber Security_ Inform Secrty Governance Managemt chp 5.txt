@@ -301,3 +301,109 @@ scans
   Final report includes 
 	Timeline of incident and response events
 	Root cause of incident
+
+
+
+//////////////// part 2
+
+
+because the question deals with patch  we use a scenario leading to that
+  
+
+the scenario : a worm and Distributed Denial of Service (DDoS) Agent Infestation   
+
+a worm transmitted over the network it is spreading through hosts and copy itself to windows shares and install a DDoS agent
+
+the actual antivirus dont detect this new worm 
+
+until abnormal behavior alarm is declared by SIEM machine learning 
+
+the cyber admin team make a first diagnostics  and they found that several machines are supposed to be infected 
+
+the info alert is broadcasted to all staff (also to  stakeholders )in order to apply the procedure.
+ Broadcast to all departements 
+
+an urgent  meeting at high level is set with cyber trusted comitee to discuss the event 
+
+at the same time the IT team proceed to react with response plan
+
+the cyber team should answer to theese questions
+
+What sources of evidence
+How would the evidence be acquired
+Where would it be stored
+How long should it be retained
+How would the incident response team identify all infected hosts
+How would the organization attempt to prevent the worm from entering the organization before solutions recovery or patch 
+
+if the compagny try to patch all vulneranle hosts how would it be done
+How would the handling of this incident change if infected hosts that had received the DDoS agent had been configured to attack another website next time
+How would the handling of this incident change if one or more of the infected hosts contained sensitive personally identifiable information regarding the compagny's employes
+ How would the incident response team keep the compagny's  users and customers informed about the status of the incident
+What additional measures would the team perform for hosts that are not currently connected to the network
+
+is there a third-Party  to the compagny  should be included in the compagny Incident Response Program 
+the event  is nowobservable ,is has another negative consequence
+is the event make a threat  of a security policy or to the standard security
+
+may be other questions will be faced  
+
+
+following to the incident reponse plan and the suggestions of the cyber comiteethe reaction toward the worm in this case is applied
+
+
+
+
+Network segmentation, Windows share ports will be blocked to temporality prevent propagation of infection
+
+
+
+gathe data logs from all devices and stored off line to perform evidence collection
+  
+Asset management and patch management systems are in place and will be used to ensure that all hosts on the network are scanned
+
+vulnerable machines would be patched via the patch 
+
+management system and would follow patch management procedures currently in place
+
+Prioritization would change to include notify of the other organization and implementation of firewall rules to prevent network communication
+
+Notification to employees of the possible exposure of PII (Personally Identifiable Information)would be handled by the HR departementt
+
+The compagny will follow the BCP (business continuity plan)communication procedure to continue to inform impacted employees
+
+IT/HR communications as well as blocking connection from remote teleworkers until patches have been verified 
+
+Each department should consider the potential impact of the incident scenario and document the necessary action steps that will be taken during the incident. 
+
+if necessary trusted third party can be included in compagny Incident Response Program
+
+BEFORE MAKING PATCH 
+
+Gather inventory on all server, storage, switch, router, laptops, desktops, etc. on the network and distributed throughout the organization. Inventory can be gathered manually or through automated discovery tools.
+
+Once you’ve completed an inventory and categorization, create a test lab environment that mirrors your production environment. Test lab environment should try to replicate the 
+
+applications that you will use to test current patch updates.
+
+
+ After completing the testing in  lab environment  the staff should create a full backup of any data and any configurations setup within environment. 
+
+Implement Configuration Management
+
+After  backups have been created and all lab patches tested, any changes to the production environment should be proposed and documented in the Configuration Management (CM) tool. If we experience any challenges during the rollout, we can refer to the CM tool for reference.
+
+Roll out  the Patches to Production
+Document the  Patch Management Process
+
+Consider the root cause of the incident so that the system isn’t susceptible to the 
+same attack vector again
+
+Verify PATCH  effectiveness by testing
+
+
+
+
+
+
+
