@@ -2,6 +2,16 @@
 
 Defense-in-depth Checkpoint 4
 
+FAMILIARISATION AVEC
+
+1 sonarqube 
+2 nodejsscan for windows
+3 nodejsscan for linux 
+4 bandit SAST FOR LINUX
 
 
 LINK : https://mega.nz/file/jYhDQSjI#Q7l9o5qA3G7rV9vw8go2y2FHWv_d29fumWGS9TwRXWY
+
+
+
+
